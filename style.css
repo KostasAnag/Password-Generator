@@ -1,0 +1,67 @@
+body {
+  margin: 0px;
+  background: #1f2937;
+  font-family: sans-serif;
+}
+
+.container {
+  margin: 90px 60px;
+}
+
+#PasswordDiv {
+  display: flex;
+  border-top: 1px solid #2f3e53;
+  margin-top: 40px;
+}
+
+button {
+  background: #10b981;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  width: 191px;
+  height: 42px;
+  font-size: 16px;
+  margin-top: 35px;
+}
+h1 {
+  color: white;
+  font-weight: 900;
+  margin-bottom: -5px;
+}
+
+span {
+  color: #4adf86;
+}
+
+h3 {
+  color: #d5d4d8;
+  font-weight: normal;
+}
+
+.par {
+  width: 211px;
+  height: 39px;
+
+  margin-top: 40px;
+  color: #55f991;
+  background: #273549;
+  border-radius: 5px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#pswd1 {
+  margin-right: 25px;
+}
+button:hover {
+  background: #2f3e53;
+
+  cursor: pointer;
+
+  color: #4adf86;
+}
+button:active {
+  transform: scale(0.95);
+}
